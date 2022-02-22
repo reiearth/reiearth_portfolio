@@ -41,7 +41,9 @@
   align-items: flex-start;
   height: 100%;
 
-  @media screen and (max-width: 2000px) {
+  margin: 0 2rem;
+
+  @media screen and (max-width: 1200px) {
     width: 100%;
     margin-right: 0rem;
   }
@@ -54,7 +56,8 @@
   align-items: flex-end;
   flex-direction: column;
 
-  .badge-cmp, .tag-cmp {
+  .badge-cmp, 
+  .tag-cmp {
     padding: 1rem 2rem;
     border: var(--white-color);
     border-radius: 15px;
@@ -117,6 +120,7 @@
     height: 100px;
   }
   div:nth-child(2) {
+    margin: 1.75rem;
     width: 150px;
     height: 150px;
   }

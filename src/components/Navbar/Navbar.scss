@@ -93,13 +93,13 @@
   align-items: center;
   background: var(--secondary-color);
     
-    svg {
+  svg {
           width: 70%;
           height: 70%;
           color: var(--white-color);
         }
     
-    div {
+  div {
           position: fixed;
           top: 0;
           bottom: 0;
@@ -161,9 +161,9 @@
             }
           }
 
-    @media screen and (min-width: 900px) {
-      display: none;
-    }
+          @media screen and (min-width: 900px) {
+            display: none;
+          }
   
   }
 
